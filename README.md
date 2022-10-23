@@ -1,6 +1,6 @@
 # Bootstrap Icons Extension For Quarto
 
-This extension provides support including icons provided by [Bootstrap](https://icons.getbootstrap.com/) and Icons can be used in HTML documents only.
+This extension provides support including icons provided by [Bootstrap](https://icons.getbootstrap.com/). Icons can be used in HTML documents only.
 
 ## Installing
 
@@ -33,6 +33,8 @@ This extension provides support for over 1,600 bootstrap icons. You can browse a
 ### icons color
 
 To specify a color for icons, you can use css [named colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#named_colors) (i.e. `red`, `cornflowerblue` etc), [RGB color model](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgb_color_model) or [HSL color model](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#hsl_color_model).
+
+The complete list of available named color is [here](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color).
 
 ```
 {{< bi alarm-fill color=red >}}

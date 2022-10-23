@@ -1,0 +1,53 @@
+---
+title: "bsicons Example"
+format: pdf
+---
+
+## Using Bootstrap Icons
+
+This is an icon of alarm {{< bi alarm >}}
+
+This is an icon of alarm (filled) {{< bi alarm-fill >}}
+
+This is an icon of alarm {{< bi alarm  size=5em color=#2ecaf9 >}}
+
+This is an icon of emoji {{< bi emoji-sunglasses  size=5em color=#2ecaf9 label="Proud Happy Face" >}}
+
+
+## icon color
+
+{{< bi alarm-fill color=red >}}
+
+{{< bi twitch color=lightseagreen >}}
+
+{{< bi twitter color=cornflowerblue >}}
+
+{{< bi windows color=#E86033 >}}
+
+{{< bi ubuntu color=rgb(232,96,51) >}}
+
+{{< bi terminal-fill color=rgba(232,96,51,1) >}}
+
+{{< bi stars color=hsl(15,80%,56%) >}}
+
+{{< bi spotify color=hsla(15,80%,56%,360) >}}
+
+
+## icon sizing
+
+
+{{< bi incognito size=37px >}}
+
+{{< bi person-plus-fill size=3.1rem >}}
+
+{{< bi postcard-heart size=2.7em >}}
+
+{{< bi reddit size=9.8vw >}}
+
+{{< bi slack size=7.6vh >}}
+
+## That's it
+
+{{< bi hand-thumbs-up-fill  size=7em color=cornflowerblue label="Thumbs up" >}}
+
+

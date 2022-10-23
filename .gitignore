@@ -1,0 +1,8 @@
+*.html
+*.pdf
+*.docx
+*.epub
+.Rproj.user
+bsicons.rproj
+.Rhistory
+*_files/
