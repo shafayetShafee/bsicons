@@ -86,3 +86,7 @@ If the icon is being used in place of some text, just add some descriptive text 
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
+
+## Acknowledgement
+
+The code for this extension is adapted from the [fontawesome](https://github.com/quarto-ext/fontawesome).
