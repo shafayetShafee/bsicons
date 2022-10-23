@@ -1,6 +1,7 @@
 ---
 title: "bsicons Example"
 format: revealjs
+self-contained: true
 ---
 
 ## Using Bootstrap Icons

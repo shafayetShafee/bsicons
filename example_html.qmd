@@ -1,6 +1,7 @@
 ---
 title: "bsicons Example"
-format: pdf
+format: html
+self-contained: true
 ---
 
 ## Using Bootstrap Icons

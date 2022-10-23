@@ -86,6 +86,7 @@ If the icon is being used in place of some text, just add some descriptive text 
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
+The output of `example.qmd` in [HTML](https://shafayetshafee.github.io/bsicons/example_html.html) format and in [revealjs](https://shafayetshafee.github.io/bsicons/example.html) format.
 
 ## Acknowledgement
 
