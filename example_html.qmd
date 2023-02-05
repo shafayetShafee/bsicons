@@ -1,18 +1,26 @@
 ---
 title: "bsicons Example"
-format: html
+author: Shafayet Khan Shafee
+date: last-modified
+date-format: "DD MMM, YYYY"
+format: 
+  html:
+    code-tools: true
 self-contained: true
+engine: knitr
 ---
+
+> View the source code by clicking `</code>` on the top right corner
 
 ## Using Bootstrap Icons
 
-This is an icon of alarm {{< bi alarm >}}
+{{< bi alarm >}}
 
-This is an icon of alarm (filled) {{< bi alarm-fill >}}
+{{< bi alarm-fill >}}
 
-This is an icon of alarm {{< bi alarm  size=5em color=#2ecaf9 >}}
+{{< bi alarm  size=5em color=#2ecaf9 >}}
 
-This is an icon of emoji {{< bi emoji-sunglasses  size=5em color=#2ecaf9 label="Proud Happy Face" >}}
+{{< bi emoji-sunglasses  size=5em color=#2ecaf9 label="Proud Happy Face" >}}
 
 
 ## icon color
@@ -46,6 +54,25 @@ This is an icon of emoji {{< bi emoji-sunglasses  size=5em color=#2ecaf9 label="
 {{< bi reddit size=9.8vw >}}
 
 {{< bi slack size=7.6vh >}}
+
+
+## using class
+
+We use the class `styled` to color all icons in red.
+
+
+```{css, filename="css code"}
+.styled {
+  color: red;
+}
+```
+
+{{< bi windows class=styled >}}
+
+{{< bi ubuntu  class=styled >}}
+
+{{< bi terminal-fill class=styled >}}
+
 
 ## That's it
 

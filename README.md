@@ -74,6 +74,24 @@ You can actually use any size in `px`, `em`, `rem`, `vw`, `vh` css units.
 
 ```
 
+### class
+
+It is also possible to assign css class using `class` argument so that multiple icons can be styled together.
+
+```{css}
+.styled {
+  color: red;
+}
+```
+
+```
+{{< bi windows class=styled >}}
+
+{{< bi ubuntu  class=styled >}}
+
+{{< bi terminal-fill class=styled >}}
+```
+
 ### Accessibility
 
 If the icon is being used in place of some text, just add some descriptive text in the label argument.
