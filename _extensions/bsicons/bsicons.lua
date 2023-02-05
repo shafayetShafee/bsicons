@@ -10,15 +10,15 @@ local function isEmpty(s)
   return s == nil or s == ''
 end
 
+local str = pandoc.utils.stringify
+
 return {
   ["bi"] = function(args, kwargs)
-
-    local icon = pandoc.utils.stringify(args[1])
-    local size = pandoc.utils.stringify(kwargs["size"])
-    local color = pandoc.utils.stringify(kwargs["color"])
-    local label = pandoc.utils.stringify(kwargs["label"])
-    
-    -- quarto.log.output(color)
+    local icon = str(args[1])
+    local size = str(kwargs["size"])
+    local color = str(kwargs["color"])
+    local label = str(kwargs["label"])
+    local class = str(kwargs["class"])
     
     if not isEmpty(size) then
       size = "font-size: " .. size .. ";"
@@ -38,6 +38,10 @@ return {
       label = " aria-label=\"" .. label  .. "\""
     end
     
+    if isEmpty(class) then
+      class = ''
+    end
+    
     local role = "role=\"img\""
     local aria_hidden = "aria-hidden=\"true\""
 
@@ -46,12 +50,12 @@ return {
       if isEmpty(label) then
         return pandoc.RawInline(
           'html',
-          "<i class=\"bi-" .. icon .. "\"" .. style .. role .. aria_hidden .. "></i>"
+          "<i class=\"bi-" .. icon .. " " .. class .. "\"" .. style .. role .. aria_hidden .. "></i>"
         )
       else
         return pandoc.RawInline(
           'html',
-          "<i class=\"bi-" .. icon .. "\"" .. style .. role .. label .. "></i>"
+          "<i class=\"bi-" .. icon .. " " .. class .. "\"" .. style .. role .. label .. "></i>"
         )
       end
     else
