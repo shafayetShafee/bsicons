@@ -10,7 +10,7 @@ self-contained: true
 engine: knitr
 ---
 
-> View the source code by clicking `</code>` on the top right corner
+> View the source code by clicking `</> Code` on the top right corner
 
 ## Using Bootstrap Icons
 
