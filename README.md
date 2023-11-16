@@ -26,7 +26,7 @@ To embed an icon, use the {{< bi >}} shortcode. For example:
 
 ```
 
-This extension provides support for over 1,600 bootstrap icons. You can browse all of the available icons here:
+This extension provides support for over 2,000 bootstrap icons. You can browse all of the available icons here:
 
 [https://icons.getbootstrap.com/#icons](https://icons.getbootstrap.com/#icons)
 
@@ -55,7 +55,6 @@ The complete list of available named color is [here](https://developer.mozilla.o
 ```
 
 **Note that, when specifying color with either RGB or HSL model, DO NOT PUT SPACE BETWEEN VALUES. That is, do not write as `rgb(232, 96, 51)`, instead write as `rgb(232,96,51)`, otherwise it will not work.**
-
 
 ### icon sizing
 
