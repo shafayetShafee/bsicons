@@ -1,8 +1,8 @@
 local function ensureHtmlDeps()
   quarto.doc.addHtmlDependency({
     name = "bootstrap-icons",
-    version = "1.11.1",
-    stylesheets = {"assets/css/all.css"}
+    version = "1.13.1",
+    stylesheets = {"assets/css/bootstrap-icons.css"}
   })
 end
 
